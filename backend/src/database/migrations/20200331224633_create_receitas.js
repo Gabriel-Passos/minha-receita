@@ -6,6 +6,7 @@ exports.up = function(knex) {
     table.string('nomeReceita').notNullable();
     table.string('ingredientes').notNullable();
     table.string('preparo').notNullable();
+    table.integer('porcao').notNullable();
 
     table.string('receita_id').notNullable();
 
